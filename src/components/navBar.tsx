@@ -1,5 +1,5 @@
 import { Heart, Search, ShoppingCart, User } from 'lucide-react';
-import Logo from '../../assets/logo.png';
+import Logo from '../assets/logo.png';
 import { Link } from 'wouter';
 
 const NavBar = () => {
