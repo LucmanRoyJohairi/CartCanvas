@@ -1,7 +1,10 @@
+import NavBar from "@/components/landingPage/navBar"
 
 const LandingPage = () => {
   return (
-    <div>Landing Page</div>
+    <div>
+      <NavBar/>
+    </div>
   )
 }
 
