@@ -1,5 +1,6 @@
 import CategoriesSection from "@/components/landingPage/categoriesSection";
 import HeaderSection from "@/components/landingPage/headerSection";
+import InspirationSection from "@/components/landingPage/inspirationSection";
 import ProductsSection from "@/components/landingPage/productsSection";
 import NavBar from "@/components/navBar";
 
@@ -11,6 +12,7 @@ const LandingPage = () => {
         <HeaderSection/>
         <CategoriesSection/>
         <ProductsSection />
+        <InspirationSection />
       </div>
     </div>
   )
