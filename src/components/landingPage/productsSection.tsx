@@ -1,7 +1,7 @@
-import Prod1 from '../../assets/landingPage/products/prod1.png'
-import Prod2 from '../../assets/landingPage/products/prod2.png'
-import Prod3 from '../../assets/landingPage/products/prod3.png'
-import Prod4 from '../../assets/landingPage/products/prod4.png'
+import Prod1 from '@/assets/landingPage/products/prod1.png'
+import Prod2 from '@/assets/landingPage/products/prod2.png'
+import Prod3 from '@/assets/landingPage/products/prod3.png'
+import Prod4 from '@/assets/landingPage/products/prod4.png'
 
 
 const ProductsSection = () => {

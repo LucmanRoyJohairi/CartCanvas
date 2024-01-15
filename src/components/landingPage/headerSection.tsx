@@ -1,4 +1,4 @@
-import HeaderPhoto from '../../assets/landingPage/header-photo.png';
+import HeaderPhoto from '@/assets/landingPage/header-photo.png';
 
 const HeaderSection = () => {
   return (

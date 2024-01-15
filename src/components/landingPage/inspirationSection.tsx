@@ -1,6 +1,6 @@
-import featuredImage from '../../assets/landingPage/inspiration/inspo1.png';
-import subImage1 from '../../assets/landingPage/inspiration/inspo2.png';
-import subImage2 from '../../assets/landingPage/inspiration/inspo3.png';
+import featuredImage from '@/assets/landingPage/inspiration/inspo1.png';
+import subImage1 from '@/assets/landingPage/inspiration/inspo2.png';
+import subImage2 from '@/assets/landingPage/inspiration/inspo3.png';
 
 const InspirationSection = () => {
   return (
@@ -21,10 +21,10 @@ const InspirationSection = () => {
                     </div>
                     {/* accordion btn */}
                     <div className='flex flex-row space-x-5'>
-                        <div className='rounded rounded-full w-3 h-3 bg-[#B88E2F]'></div>
-                        <div className='rounded rounded-full w-3 h-3 bg-[#D8D8D8]'></div>
-                        <div className='rounded rounded-full w-3 h-3 bg-[#D8D8D8]'></div>
-                        <div className='rounded rounded-full w-3 h-3 bg-[#D8D8D8]'></div>
+                        <div className='rounded rounded-full w-3 h-3 bg-[#B88E2F] hover:cursor-pointer'></div>
+                        <div className='rounded rounded-full w-3 h-3 bg-[#D8D8D8] hover:cursor-pointer'></div>
+                        <div className='rounded rounded-full w-3 h-3 bg-[#D8D8D8] hover:cursor-pointer'></div>
+                        <div className='rounded rounded-full w-3 h-3 bg-[#D8D8D8] hover:cursor-pointer'></div>
                     </div>
                 </div>
             </div>

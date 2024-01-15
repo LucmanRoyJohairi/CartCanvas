@@ -1,6 +1,6 @@
-import LivingRoom from '../../assets/landingPage/living.png'
-import BedRoom from '../../assets/landingPage/bedroom.png'
-import DiningRoom from '../../assets/landingPage/diner.png'
+import LivingRoom from '@/assets/landingPage/living.png'
+import BedRoom from '@/assets/landingPage/bedroom.png'
+import DiningRoom from '@/assets/landingPage/diner.png'
 const CategoriesSection = () => {
   return (
     <div className="flex flex-col space-y-4 w-full ">
