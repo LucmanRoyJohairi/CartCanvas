@@ -5,7 +5,7 @@ import { Link } from 'wouter';
 const NavBar = () => {
   return (
     <div>
-        <div className="flex flex-row justify-between py-5 px-10 border-b">
+        <div className="flex flex-row justify-between py-5 px-10 border-b h-[100px]">
             {/* logo */}
             <div className="flex flex-row space-x-3 items-center">
                 <img src={Logo} alt="logo" width={30} height={30}/>
@@ -13,10 +13,10 @@ const NavBar = () => {
             </div>
             {/* navlinks */}
             <div className='flex flex-row justify-between space-x-10 items-center'>
-                <Link href='/home' className='text-sm font-semibold'>Home</Link>
-                <Link href='/shop' className='text-sm font-semibold'>Shop</Link>
-                <Link href='/about' className='text-sm font-semibold'>About</Link>
-                <Link href='/contact' className='text-sm font-semibold'>Contact</Link>
+                <Link href='/home' className='text-sm font-medium'>Home</Link>
+                <Link href='/shop' className='text-sm font-medium'>Shop</Link>
+                <Link href='/about' className='text-sm font-medium'>About</Link>
+                <Link href='/contact' className='text-sm font-medium'>Contact</Link>
             </div>
 
             {/* nav-actions */}

@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import CategoriesSection from "@/components/landingPage/categoriesSection";
 import HeaderSection from "@/components/landingPage/headerSection";
 import InspirationSection from "@/components/landingPage/inspirationSection";
@@ -13,6 +14,7 @@ const LandingPage = () => {
         <CategoriesSection/>
         <ProductsSection />
         <InspirationSection />
+        <Footer/>
       </div>
     </div>
   )
