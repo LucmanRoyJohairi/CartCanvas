@@ -8,16 +8,18 @@ import NavBar from "@/components/navBar";
 const LandingPage = () => {
   return (
     <div>
-      <NavBar/>
-      <div className="flex flex-col space-y-20 relative w-full mb-10">
-        <HeaderSection/>
-        <CategoriesSection/>
-        <ProductsSection />
+      <NavBar />
+      <div className="flex flex-col space-y-20 w-full mb-10">
+        <HeaderSection />
+        <div className="w-full flex flex-col items-center space-y-10">
+          <CategoriesSection />
+          <ProductsSection />
+        </div>
         <InspirationSection />
-        <Footer/>
+        <Footer />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default LandingPage
+export default LandingPage;
